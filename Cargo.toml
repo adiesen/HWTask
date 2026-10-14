@@ -1,0 +1,10 @@
+[package]
+name = "hw-task"
+version = "0.1.0"
+edition = "2024"
+description = "An application to obtain hardware information"
+publish = false
+
+[dependencies]
+eframe = { version = "0.31", default-features = false, features = ["default_fonts", "glow"] }
+rand = "0.9"
